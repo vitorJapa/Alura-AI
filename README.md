@@ -79,3 +79,38 @@ Para executar o script, forneça a descrição da vaga como uma string e execute
 
 ```bash
 python main.py
+```
+
+O CV gerado será salvo como CV_Alterado.pdf (ou o nome especificado em OUTPUT_CV_FILENAME) e estara na raiz do projeto.
+
+## Dependências
+```
+* fpdf: Para geração de arquivos PDF.
+* google-generativeai: Para interagir com a API do Gemini.
+* python-dotenv: Para carregar variáveis de ambiente do arquivo .env.
+
+Você pode instalar todas as dependências usando o arquivo requirements.txt:
+* pip install -r requirements.txt
+```
+
+## Uso 
+```
+Certifique-se de ter os arquivos CV_Base e Dicionario no mesmo diretório que o script.
+Forneça a descrição da vaga que você deseja como entrada para a função generate_cv.
+O script irá gerar um CV personalizado em PDF.
+Estrutura do Código
+O código é organizado da seguinte forma:
+
+main.py: Contém a lógica principal para gerar o CV.
+CV_Base: Arquivo de texto contendo o CV base.
+Dicionario: Arquivo de texto contendo um dicionário de termos e frases para adaptação.
+PDF: Classe personalizada que estende a classe FPDF para adicionar cabeçalho e rodapé.
+Funções auxiliares para leitura de arquivos, sanitização de texto e manipulação de JSON.
+Contribuição
+Contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria, correção de bugs ou novas funcionalidades, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+```
+
+## Licença
+```
+Este projeto é licenciado sob a MIT License.
+```
