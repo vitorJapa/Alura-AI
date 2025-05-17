@@ -8,7 +8,7 @@ import json
 # Constantes
 CV_BASE_FILENAME = "CV_Base"
 DICIONARIO_BASE_FILENAME = "Dicionario"
-OUTPUT_CV_FILENAME = "Vitor_Kihara_CV.pdf"
+OUTPUT_CV_FILENAME = "CV_Alterado.pdf"
 MODEL_NAME = 'gemini-2.0-flash'
 LEFT_COLUMN_WIDTH = 60
 RIGHT_COLUMN_WIDTH = 120  # Aumentei a largura da coluna da direita

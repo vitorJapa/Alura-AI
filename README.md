@@ -63,6 +63,16 @@ O objetivo principal é aumentar a eficiência na busca de emprego, fornecendo a
         GOOGLE_API_KEY=SUA_CHAVE_AQUI
         ```
 
+5.  **Configuraçao dos arquivos .txt**
+    ```
+    * No arquivo CV_Base, coloque as informaçoes do seu curriculo em formato txt.
+    ```
+    
+6.  **Alterar a Vaga**
+    ```
+    * No arquivo main.py, na variavel job_description coloque a descriçao da vaga inteira ou o link da vaga no linkedin.
+    ```
+    
 ## Execução
 
 Para executar o script, forneça a descrição da vaga como uma string e execute o script `main.py`:
