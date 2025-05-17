@@ -1,0 +1,36 @@
+{
+  "personal_information": {
+    "name": "nome da pessoa",
+    "title": "titulo da vaga",
+    "phone": "n telefone",
+    "email": "email",
+    "linkedin": "link do linkedin",
+    "location": "cidade"
+  },
+  "profile": "Sumario.",
+  "skills": {
+      "nome da skill"
+  },
+  "languages": [
+    {"language": "lingua", "proficiency": "level de proficiencia"}
+  ],
+  "certifications": [
+    {"name": "nome da certificacao", "date": "data da certificacao"}
+  ],
+  "professional_experience": [
+    {
+      "company": "Nome da empresa",
+      "location": "Lugar",
+      "title": "Titulo",
+      "duration": "Periodo de trabalho",
+      "description": "descricao das funcoes"
+    }
+  ],
+  "education": [
+    {
+      "degree": "nome do curso",
+      "institution": "nome da faculdade",
+      "years": "periodo do curso"
+    }
+  ]
+ }
